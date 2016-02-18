@@ -597,6 +597,9 @@ ul.templatemo-project-gallery  li  a img:hover {
 .max {
     margin-top: 55px;
 }
+#pc {
+    display: block;
+}
 #ttt {
     display: none;
 }
@@ -973,46 +976,4 @@ ul.templatemo-project-gallery  li  a img:hover {
         display: block;
     }
  
-}
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-#mobile,#map-canvas {
-        display: none;
-    }
-    #pc {
-        display:none;
-    }
-    #ttt {
-        display: block;
-    }
-}
-
-/* Smartphones (landscape) ----------- */
-@media only screen
-and (min-width : 321px) {
-#mobile {
-        display: none;
-    } 
-    #pc {
-        display:none;
-    }
-    #ttt {
-        display: block;
-    }
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen
-and (max-width : 320px) {
-#mobile,#map-canvas {
-        display: none;
-    } 
-    #pc {
-        display:none;
-    }
-    #ttt {
-        display: block;
-    }
 }
