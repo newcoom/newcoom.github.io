@@ -591,6 +591,15 @@ ul.templatemo-project-gallery  li  a img:hover {
 .blog_box {
 	margin-left: -12px;
 }
+.risk {
+    margin-top: 60px;
+}
+.max {
+    margin-top: 55px;
+}
+#phone {
+    display: none;
+}
 
 @media (min-width:991px) and (max-width:1200px) {
     .templatemo-project-box, .project-overlay {
@@ -859,6 +868,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #pc {
+        display: block;
+    }
      
 }
 
@@ -873,7 +885,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-    
+      #phone {
+        display: block;
+    }
 }
 
 @media only screen 
@@ -887,7 +901,10 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      
+      #phone {
+        display: block;
+    }
+ 
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
@@ -895,7 +912,10 @@ and (min-device-width : 320px)
 and (max-device-width : 480px) {
 #mobile,#map-canvas {
         display: none;
-    }  
+    }
+    #pc {
+        display: none;
+    }
 }
 
 /* Smartphones (landscape) ----------- */
