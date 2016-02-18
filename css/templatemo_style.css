@@ -731,7 +731,12 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (-webkit-min-device-pixel-ratio: 2) {
       #mobile,#map-canvas {
         display: none;
-    }  
+    }
+      #featuresimg {
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
 
 }
 
@@ -743,7 +748,12 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (orientation: portrait) {
       #mobile,#map-canvas {
         display: none;
-    }  
+    }
+      #featuresimg {
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
 }
 
 /* Landscape */
@@ -754,7 +764,12 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (orientation: landscape) {
 #mobile,#map-canvas {
         display: none;
-    }  
+    }
+      #featuresimg {
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
@@ -766,7 +781,12 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (-webkit-min-device-pixel-ratio: 2) {
 #mobile,#map-canvas {
         display: none;
-    }  
+    }
+      #featuresimg {
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
 }
 
 /* Portrait */
@@ -777,7 +797,12 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (orientation: portrait) {
       #mobile,#map-canvas {
         display: none;
-    }  
+      }
+      #featuresimg {
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
 }
 
 /* Landscape */
@@ -788,7 +813,12 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (orientation: landscape) {
 #mobile,#map-canvas {
         display: none;
-    }  
+    }
+     #featuresimg {
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -800,7 +830,12 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (-webkit-min-device-pixel-ratio: 2) { 
 #mobile,#map-canvas {
         display: none;
-    }  
+    }
+      #featuresimg {
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
 }
 
 @media only screen 
@@ -810,7 +845,12 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (orientation: portrait) { 
 #mobile,#map-canvas {
         display: none;
-    }  
+    }
+     #featuresimg {
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
 }
 
 @media only screen 
@@ -820,7 +860,12 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (orientation: landscape) { 
 #mobile,#map-canvas {
         display: none;
-    }  
+    }
+      #featuresimg {
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
 }
 
 @media only screen 
@@ -829,7 +874,13 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (-webkit-min-device-pixel-ratio: 3) { 
 #mobile,#map-canvas {
         display: none;
-    }  
+    }
+      #featuresimg {
+          display: block;
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
 }
 
 @media only screen 
@@ -839,7 +890,13 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (orientation: portrait) { 
 #mobile,#map-canvas {
         display: none;
-    }  
+    } 
+      #featuresimg {
+          display: block;
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
 }
 
 @media only screen 
@@ -849,7 +906,13 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (orientation: landscape) { 
 #mobile,#map-canvas {
         display: none;
-    }  
+    }
+     #featuresimg {
+         display: block;
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+      }
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
@@ -863,7 +926,7 @@ and (max-device-width : 480px) {
 /* Smartphones (landscape) ----------- */
 @media only screen
 and (min-width : 321px) {
-#mobile,#map-canvas {
+#mobile {
         display: none;
     }  
 }
