@@ -732,12 +732,6 @@ ul.templatemo-project-gallery  li  a img:hover {
       #mobile,#map-canvas {
         display: none;
     }
-      #featuresimg {
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
-      }
-
 }
 
 /* Portrait */
@@ -749,11 +743,6 @@ ul.templatemo-project-gallery  li  a img:hover {
       #mobile,#map-canvas {
         display: none;
     }
-      #featuresimg {
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
-      }
 }
 
 /* Landscape */
@@ -765,11 +754,6 @@ ul.templatemo-project-gallery  li  a img:hover {
 #mobile,#map-canvas {
         display: none;
     }
-      #featuresimg {
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
-      }
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
@@ -782,11 +766,6 @@ ul.templatemo-project-gallery  li  a img:hover {
 #mobile,#map-canvas {
         display: none;
     }
-      #featuresimg {
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
-      }
 }
 
 /* Portrait */
@@ -797,11 +776,6 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (orientation: portrait) {
       #mobile,#map-canvas {
         display: none;
-      }
-      #featuresimg {
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
       }
 }
 
@@ -814,11 +788,6 @@ ul.templatemo-project-gallery  li  a img:hover {
 #mobile,#map-canvas {
         display: none;
     }
-     #featuresimg {
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
-      }
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -831,11 +800,6 @@ ul.templatemo-project-gallery  li  a img:hover {
 #mobile,#map-canvas {
         display: none;
     }
-      #featuresimg {
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
-      }
 }
 
 @media only screen 
@@ -846,11 +810,6 @@ ul.templatemo-project-gallery  li  a img:hover {
 #mobile,#map-canvas {
         display: none;
     }
-     #featuresimg {
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
-      }
 }
 
 @media only screen 
@@ -861,11 +820,6 @@ ul.templatemo-project-gallery  li  a img:hover {
 #mobile,#map-canvas {
         display: none;
     }
-      #featuresimg {
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
-      }
 }
 
 @media only screen 
@@ -875,12 +829,10 @@ ul.templatemo-project-gallery  li  a img:hover {
 #mobile,#map-canvas {
         display: none;
     }
-      #featuresimg {
-          display: block;
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
+      hr {
+          display:none;
       }
+     
 }
 
 @media only screen 
@@ -890,13 +842,11 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (orientation: portrait) { 
 #mobile,#map-canvas {
         display: none;
-    } 
-      #featuresimg {
-          display: block;
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
+    }
+      hr {
+          display:none;
       }
+    
 }
 
 @media only screen 
@@ -907,12 +857,10 @@ ul.templatemo-project-gallery  li  a img:hover {
 #mobile,#map-canvas {
         display: none;
     }
-     #featuresimg {
-         display: block;
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
+      hr {
+          display:none;
       }
+      
 }
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
@@ -928,7 +876,7 @@ and (max-device-width : 480px) {
 and (min-width : 321px) {
 #mobile {
         display: none;
-    }  
+    } 
 }
 
 /* Smartphones (portrait) ----------- */
