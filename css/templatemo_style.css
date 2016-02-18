@@ -600,7 +600,12 @@ ul.templatemo-project-gallery  li  a img:hover {
 #phone {
     display: none;
 }
-
+.unclickable {
+    text-decoration: none; 
+    }
+.unclickable:hover { 
+    cursor: default; 
+    }
 @media (min-width:991px) and (max-width:1200px) {
     .templatemo-project-box, .project-overlay {
         height:170px;
