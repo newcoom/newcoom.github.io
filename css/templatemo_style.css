@@ -744,6 +744,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #phone {
+        display: block;
+    }
 }
 
 /* Portrait */
@@ -758,6 +761,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #phone {
+        display: block;
+    }
 }
 
 /* Landscape */
@@ -772,6 +778,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #phone {
+        display: block;
+    }
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
@@ -787,6 +796,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #phone {
+        display: block;
+    }
 }
 
 /* Portrait */
@@ -801,6 +813,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #phone {
+        display: block;
+    }
 }
 
 /* Landscape */
@@ -815,6 +830,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #phone {
+        display: block;
+    }
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -830,6 +848,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #phone {
+        display: block;
+    }
 }
 
 @media only screen 
@@ -843,6 +864,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #phone {
+        display: block;
+    }
 }
 
 @media only screen 
@@ -856,6 +880,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #phone {
+        display: block;
+    }
 }
 
 @media only screen 
