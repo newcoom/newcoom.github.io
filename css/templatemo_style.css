@@ -597,7 +597,7 @@ ul.templatemo-project-gallery  li  a img:hover {
 .max {
     margin-top: 55px;
 }
-#phone {
+#ttt {
     display: none;
 }
 .unclickable {
@@ -749,7 +749,7 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      #phone {
+      #ttt {
         display: block;
     }
 }
@@ -766,7 +766,7 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      #phone {
+      #ttt {
         display: block;
     }
 }
@@ -783,7 +783,7 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      #phone {
+      #ttt {
         display: block;
     }
 }
@@ -801,7 +801,7 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      #phone {
+      #ttt {
         display: block;
     }
 }
@@ -818,7 +818,7 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      #phone {
+      #ttt {
         display: block;
     }
 }
@@ -835,7 +835,7 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      #phone {
+      #ttt {
         display: block;
     }
 }
@@ -853,7 +853,7 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      #phone {
+      #ttt {
         display: block;
     }
 }
@@ -869,7 +869,7 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      #phone {
+      #ttt {
         display: block;
     }
 }
@@ -885,7 +885,7 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      #phone {
+      #ttt {
         display: block;
     }
 }
@@ -900,7 +900,7 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      #pc {
+      #ttt {
         display: block;
     }
      
@@ -917,7 +917,7 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      #phone {
+      #ttt {
         display: block;
     }
 }
@@ -933,7 +933,7 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
-      #phone {
+      #ttt {
         display: block;
     }
  
@@ -945,8 +945,8 @@ and (max-device-width : 480px) {
 #mobile,#map-canvas {
         display: none;
     }
-    #pc {
-        display: none;
+    #ttt {
+        display: block;
     }
 }
 
@@ -956,6 +956,9 @@ and (min-width : 321px) {
 #mobile {
         display: none;
     } 
+    #ttt {
+        display: block;
+    }
 }
 
 /* Smartphones (portrait) ----------- */
@@ -963,5 +966,8 @@ and (min-width : 321px) {
 and (max-width : 320px) {
 #mobile,#map-canvas {
         display: none;
-    }  
+    } 
+    #ttt {
+        display: block;
+    }
 }
