@@ -749,6 +749,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #pc {
+          display:none;
+      }
       #ttt {
         display: block;
     }
@@ -766,6 +769,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #pc {
+          display:none;
+      }
       #ttt {
         display: block;
     }
@@ -781,6 +787,9 @@ ul.templatemo-project-gallery  li  a img:hover {
         display: none;
     }
       hr {
+          display:none;
+      }
+      #pc {
           display:none;
       }
       #ttt {
@@ -801,6 +810,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #pc {
+          display:none;
+      }
       #ttt {
         display: block;
     }
@@ -818,6 +830,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #pc {
+          display:none;
+      }
       #ttt {
         display: block;
     }
@@ -833,6 +848,9 @@ ul.templatemo-project-gallery  li  a img:hover {
         display: none;
     }
       hr {
+          display:none;
+      }
+      #pc {
           display:none;
       }
       #ttt {
@@ -853,6 +871,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #pc {
+          display:none;
+      }
       #ttt {
         display: block;
     }
@@ -867,6 +888,9 @@ ul.templatemo-project-gallery  li  a img:hover {
         display: none;
     }
       hr {
+          display:none;
+      }
+      #pc {
           display:none;
       }
       #ttt {
@@ -885,6 +909,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #pc {
+          display:none;
+      }
       #ttt {
         display: block;
     }
@@ -898,6 +925,9 @@ ul.templatemo-project-gallery  li  a img:hover {
         display: none;
     }
       hr {
+          display:none;
+      }
+      #pc {
           display:none;
       }
       #ttt {
@@ -917,6 +947,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #pc {
+          display:none;
+      }
       #ttt {
         display: block;
     }
@@ -933,6 +966,9 @@ ul.templatemo-project-gallery  li  a img:hover {
       hr {
           display:none;
       }
+      #pc {
+          display:none;
+      }
       #ttt {
         display: block;
     }
@@ -945,6 +981,9 @@ and (max-device-width : 480px) {
 #mobile,#map-canvas {
         display: none;
     }
+    #pc {
+        display:none;
+    }
     #ttt {
         display: block;
     }
@@ -956,6 +995,9 @@ and (min-width : 321px) {
 #mobile {
         display: none;
     } 
+    #pc {
+        display:none;
+    }
     #ttt {
         display: block;
     }
@@ -967,6 +1009,9 @@ and (max-width : 320px) {
 #mobile,#map-canvas {
         display: none;
     } 
+    #pc {
+        display:none;
+    }
     #ttt {
         display: block;
     }
