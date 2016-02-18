@@ -1,1 +1,734 @@
-<!DOCTYPE html><html lang="en"><head><title>MissionOS</title><meta name="keywords" content="MissionOS,GIS,data base,web based,monitoraggio,geotecnica,idrogeologia,industriale,ambiente,monitoraggio ambientale,monitoraggio geotecnico,monitoraggio strutturale,piattaforma web,data management,gestione dati di monitoraggio,monitoring,piattaforma gestione dati,dati di monitoraggio,strumentazione di monitoraggio,instrumentation,spostamenti,settlements,dighe,frane,ponti,infrastrutture,strade,ferrovie,versanti,discariche,siti inquinati,falda,falde,dissesto idrogeologico,datalogger" /><meta name="description" content="MissionOS.it è una piattaforma software web based in ambiente GIS che consente di:gestire dati di monitoraggio raccolti da diverse reti automatiche o manuali attraverso un'interfaccia potente e semplice per utenti anche non esperti,gestire notifiche di allarme al superamento di soglie prestabilite con invio automatico di SMS e/o email,creare,raccogliere e gestire report,raccogliere e gestire documentazione di base come disegni,note,relazioni,etc. in formato pdf" /><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="shortcut icon" href="/favicon.ico"><link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico"><link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png"><link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png"><link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png"><link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png"><link rel="apple-touch-icon" href="/favicon-57.png"><link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png"><link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png"><link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png"><link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png"><link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png"><link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png"><link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png"><link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png"><meta name="msapplication-TileImage" content="/favicon-144.png"><meta name="msapplication-config" content="/browserconfig.xml"><!-- Google Web Font Embed --><link href='http://fonts.googleapis.com/css?family=Raleway:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'><!-- Bootstrap core CSS --><link href="css/bootstrap.min.css" rel='stylesheet' type='text/css'><!-- Custom styles for this template --><link href="js/colorbox/colorbox.css"rel='stylesheet' type='text/css'><link href="css/templatemo_style.css"rel='stylesheet' type='text/css'></head><body><div class="templatemo-top-bar" id="templatemo-top"><div class="container"><div class="subheader"><div id="phone" class="pull-left"><img src="images/phone.png" alt="phone"/>+39 333 8553750</div><div id="email" class="pull-right"><img src="images/email.png" alt="email"/><a href="mailto:info@missionos.it" target="_top">info@missionos.it</a></div></div></div></div><div class="templatemo-top-menu"><div class="container"><!-- Static navbar --><div class="navbar navbar-default" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="pse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand"><img class="img-responsive" src="images/newcoom.png" alt="newcoom" title="newcoom" /></a></div><div class="navbar-collapse collapse" id="templatemo-nav-bar"><ul class="nav navbar-nav navbar-right" style="margin-top:40px;"><li class="active"><a href="#templatemo-top">Home</a></li><li><a href="#templatemo-idms">MissionOS</a></li><li><a href="#templatemo-about">IDMS</a></li><li><a href="#templatemo-blog">Progetti</a></li><li><a href="#templatemo-video">Media</a></li><li><a href="#templatemo-contact">Contatti</a></li></ul></div><!--/.nav-collapse --></div><!--/.container-fluid --></div><!--/.navbar --></div> <!-- /container --></div><div><!-- Carousel --><div id="templatemo-carousel" class="carousel slide" data-ride="carousel"><!-- Indicators --><ol class="carousel-indicators"><li data-target="#templatemo-carousel" data-slide-to="0" class="active"></li><li data-target="#templatemo-carousel" data-slide-to="1"></li><li data-target="#templatemo-carousel" data-slide-to="2"></li></ol><div class="carousel-inner"><div class="item active"><div class="container"><div class="carousel-caption"><h1>Piattaforme web per la gestione di dati di monitoraggio</h1><p>&zwnj;</p><p>&zwnj;</p></div></div></div><div class="item"><div class="container"><div class="carousel-caption"><div class="col-sm-6 col-md-6"><h1>SEMPLICI</h1><p>Interfaccia intuitiva,accesso rapido a dati,foto,documenti e report per massimizzare l'efficienza dei team di lavoro</p></div><div class="col-sm-6 col-md-6"><h1>SICURE E AFFIDABILI</h1><p>Accessibili con ID e password,piattaforme basate su tecnologia LAMP,la più sicura,stabile e in rapida evoluzione sul web</p></div></div></div></div><div class="item"><div class="container"><div class="carousel-caption"><h1>Per gestire grandi quantità di dati</h1><p>&zwnj;</p><p>&zwnj;</p></div></div></div></div><a class="left carousel-control" href="#templatemo-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control" href="#templatemo-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a></div><!-- /#templatemo-carousel --></div><div class="templatemo-welcome" id="templatemo-welcome"><div class="container"><div class="templatemo-slogan text-center"><span class="txt_darkgrey">Benvenuti su </span><span class="txt_orange">MissionOS.it</span><p class="txt_slogan"><i>Noi pensiamo ai dati e voi vi concentrate sui progetti</i></p></div></div></div><div class="templatemo-service"><div class="container"><div class="row"><div class="col-md-4"><div class="templatemo-service-item"><div><img src="images/leaf.png" alt="icon" /><span class="templatemo-service-item-header">La nostra mission</span></div><p>Se gestite reti di monitoraggio di infrastrutture,edifici,reti ambientali,sapete quanto sia importante disporre in maniera rapida dei dati di cui avete bisogno sul vostro computer o sul vostro terminale mobile</p><br class="clearfix"/></div><div class="clearfix"></div></div><div class="col-md-4"><div class="templatemo-service-item" ><div><img src="images/mobile.png" alt="icon"/><span class="templatemo-service-item-header">La piattaforma web</span></div><p>MissionOS.it è una piattaforma web in ambiente GIS che consente di:raccogliere documenti di base come disegni,report,relazioni,etc. in formato pdf,raccogliere in un unico database e su base GIS (aerofotografie o mappe) informazioni e dati raccolti da reti differenti di strumentazione egestire il monitoraggio...</p><br class="clearfix"/></div></div><div class="col-md-4"><div class="templatemo-service-item"><div><img src="images/battery.png" alt="icon"/><span class="templatemo-service-item-header">La massima efficienza</span></div><p>Compatibile con più di cento formati di file per gestire reti di monitoraggio strutturale,geotecnico,idrogeologico,ambientale di lungo termine. Per realizzare progetti,gestire e fare manutenzione,tenere sotto controllo la vita e l’evoluzione nel tempo di grandi infrastrutture,opere,linee di trasporto,siti di attività industriale,aree ad elevata sensibilità ambientale,sismica e idrogeologica</p></div></div></div></div></div><div id="templatemo-idms" ><div class="container"><div class="row"><div class="templatemo-line-header-1" ><div class="text-center"><hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">MissionOS</span><hr class="team_hr team_hr_right hr_gray" /></div></div><div class="clearfix"></div><div class="blog_box"><div class="col-sm-5 col-md-6 blog_post"><ul class="list-inline"><li class="col-md-4"><a href="#"><img class="img-responsive" src="images/keybenefits_8.png" alt="gallery 1" /></a></li><liclass="col-md-8"><div class="pull-left"><span class="blog_header">Formati pre-installati per i vostri report</span><br/></div><div class="clearfix"> </div><p class="blog_text"> MissionOS è dotato di potenti strumenti di reportistica e diagnostica che consente al sistema di preparare e caricare rapporti a timing prestabilito o ad-hoc. Durante la fase d'installazione lavoriamo con il vostro team per definire esattamente quali dati sono richiesti,quando e in quale formato che a quel punto è predisposto in un formato presente nel sistema</p></li></ul></div> <!-- /.blog_post 1 --><div class="col-sm-5 col-md-6 blog_post"><ul class="list-inline"><li class="col-md-4"><a href="#"><img class="img-responsive" src="images/keybenefits_4.png" alt="gallery 2" /></a></li><li class="col-md-8"><div class="pull-left"><span class="blog_header">Riduzione del personale / Riduzione dei costi</span><br/></div><div class="clearfix"> </div><p class="blog_text"> Uno dei principali benefici di MissionOS è la riduzione della manodopera necessaria per il monitoraggio e il reporting. Una volta che i dati e i parametri degli strumenti sono stati caricati,il sistema svolge il lavoro più pesante. L'automatizzazione del caricamento dei dati,la loro elaborazione e compilazione di report può ridurre la manodopera di più del 90%</p></li></ul></div><!-- /.blog_post 2 --><div class="templatemo_clear"></div><div class="col-sm-5 col-md-6 blog_post"><ul class="list-inline"><li class="col-md-4"><a href="#"><img class="img-responsive" src="images/keybenefits_5.png" alt="gallery 3" /></a></li><li class="col-md-8"><div class="pull-left"><span class="blog_header">Mappa del sito e altre cartografie</span><br/></div><div class="clearfix"> </div><p class="blog_text"> Durante il set-up iniziale MissionOS è configurato con la mappa del sito e altre cartografie e planimetrie tematiche con l'ubicazione del sito e della strumentazione. Gli operatori possono posizionare rapidamente nuovi elementi o identificare allarmi e attività di costruzione. Le mappe sono accessibili e aggiornabili direttamente da personale in sito autorizzato semplicemente in grado di accedere al web.</p></li></ul></div><!-- /.blog_post 3 --><div class="col-sm-5 col-md-6 blog_post"><ul class="list-inline"><li class="col-md-4"><a href="#"><img class="img-responsive" src="images/keybenefits_3.png"alt="gallery 4" /></a></li><li class="col-md-8"><div class="pull-left"><span class="blog_header">Impronta informatica ultraleggera</span><br/></div><div class="clearfix"> </div><p class="blog_text">MissionOS non necessita di installazione sulle vostre macchine e sulla vostra rete informatica essendo accessibile via web da qualunque terminale dotato di accesso a internet. Ciò evita di incorrere negli usuali problemi di malfunzionamento dei software sulle diverse macchine per problemi di differenti configurazioni o compresenza di programmi non compatibili. In questo modo potrete accedere a MissionOS in pochi secondi risparmiando moltissimo tempo</p></li></ul></div> <!-- /.blog_post 4 --></div></div> <!-- /.row --><div class="row"><div class="clearfix"></div><div class="blog_box"><div class="col-sm-5 col-md-6 blog_post"><ul class="list-inline"><li class="col-md-4"><a href="#"><img class="img-responsive" src="images/keybenefits_1.png" alt="gallery 1" /></a></li><liclass="col-md-8"><div class="pull-left"><span class="blog_header">Auto caricamento dei dati</span><br/></div><div class="clearfix"> </div><p class="blog_text"> MissionOS raggiunge la sua massima potenza quando riceve automaticamente i dati via datalogger dalla strumentazione in sito. Ciò consente non soltanto di risparmiare al massimo sulla manodopera,ma consente anche la massima velocità,accuratezza e affidabilità dei dati caricati.</p></li></ul></div> <!-- /.blog_post 5 --><div class="col-sm-5 col-md-6 blog_post"><ul class="list-inline"><li class="col-md-4"><a href="#"><img class="img-responsive" src="images/keybenefits_2.png" alt="gallery 2" /></a></li><li class="col-md-8"><div class="pull-left"><span class="blog_header">Il portale di MissionOS</span><br/></div><div class="clearfix"> </div><p class="blog_text"> Consente a singoli operatori o a piccoli gruppi di eseguire una vasta gamma compiti che richiederebbero normalmente molta manodopera. La possibilità di accedere a MissionOS tramite qualunque terminale con accesso a internet consente ai vostri team di essere semprein contatto con i dati ovunque e di essere sempre aggiornati su ciò che sta accadendo.</p></li></ul></div><!-- /.blog_post 6 --><div class="templatemo_clear"></div><div class="col-sm-5 col-md-6 blog_post"><ul class="list-inline"><li class="col-md-4"><a href="#"><img class="img-responsive" src="images/keybenefits_6.png" alt="gallery 3" /></a></li><li class="col-md-8"><div class="pull-left"><span class="blog_header">Stumenti pre-installati e allarmi</span><br/></div><div class="clearfix"> </div><p class="blog_text"> MissionOS è già implementato con una lista completa di strumenti dai principali fornitori mondiali e,dove disponibili,di tutte le informazioni tecniche relative agli strumenti e ai parametri di allarme. Ciò consente ai vostri team di risparmiare molto tempo e assicurare che il sistema sia pienamente rispondente dal momento in cui è attivato.</p></li></ul></div><!-- /.blog_post 7 --><div class="col-sm-5 col-md-6 blog_post"><ul class="list-inline"><li class="col-md-4"><a href="#"><img class="img-responsive" src="images/keybenefits_7.png"alt="gallery 4" /></a></li><li class="col-md-8"><div class="pull-left"><span class="blog_header">24/24 7/7 con ogni condizione meteorologica</span><br/></div><div class="clearfix"> </div><p class="blog_text"> Le persone possono essere stanche,annoiate,bloccate nel traffico mentre le macchine svolgono sempre il loro lavoro. MissionOS reagisce sempre agli eventi che accadono,registra in maniera affidabile e precisa e conserva i dati in totale sicurezza. In caso di incidente avrete sempre la più completa registrazione dell'evento.</p></li></ul></div> <!-- /.blog_post 8 --></div></div> <!-- /.row --></div><div class="templatemo-team" id="templatemo-about"><div class="container"><div class="row"><div class="templatemo-line-header"><div class="text-center"><hr class="team_hr team_hr_left" /><span style="font-weight:bold;color:#fff">QUICK VIEW</span><hr class="team_hr team_hr_right" /></div></div></div><div class="clearfix"> </div><div class="col-lg-12 col-md-12 col-sm-12 "><div class="text-center"><div class="member-thumb"><img src="images/mission-os.png" class="img-responsive center-block" alt="missionOS" /></div></div></div> <div class="col-md-3"><div class="templatemo-service-item" ><div><span class="templatemo-service-item-header"></span></div><p style="font-weight:bold;color:#fff">MissionOS può aiutare i tuoi progetti — sfrutta la potenza dei dati in tempo reale — dalla vista d'insieme al più preciso dettaglio.</p><br class="clearfix"/></div></div><div class="col-md-3"><div class="templatemo-service-item" ><div><span class="templatemo-service-item-header"></span></div><p style="font-weight:bold;color:#fff">Realizzato sull'esperienza in campo dai nostri ingegneri — esplora le caratteristiche che ti consentono di entrare in diretto contatto con i più minimi dettagli del tuo progetto.</p><br class="clearfix"/></div></div><div class="col-md-3"><div class="templatemo-service-item" ><div><span class="templatemo-service-item-header"></span></div><p style="font-weight:bold;color:#fff">Dove impiegarlo — dai progetti di grandi opere civili all'ambito minerario,alla difesa dell'ambiente - capire come MissionOS può aiutarti nella risoluzione di problemi complessi</p><br class="clearfix"/></div></div><div class="col-md-3"><div class="templatemo-service-item" ><div><span class="templatemo-service-item-header"></span></div><p style="font-weight:bold;color:#fff">Il sistema — un sistema di dati semplice ed elegante con un'impronta informatica ultraleggera può fornire importanti soluzioni progettuali</p><br class="clearfix"/></div></div></div></div><!-- /.templatemo-team --><div id="templatemo-blog"><div class="container"><div class="container"><div class="text-center"><div class="templatemo-line-header-2 container"><div class="text-center"><hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">PROGETTI</span><hr class="team_hr team_hr_right hr_gray" /></div></div><div class="clearfix"></div></div> <!-- /.row --></div><div class="blog_box"><div class="col-sm-5 col-md-6 blog_post"><ul class="list-inline"><li class="col-md-4"><a href="#"><img class="img-responsive" src="images/shapeimage_6.png" alt="gallery 1" /></a></li><liclass="col-md-8"><div class="pull-left"><span class="blog_header">Airport Link,Brisbane</span><br/></div><div class="clearfix"> </div><p class="blog_text">Non è sufficiente un software per condurre un progetto al successo,ma l'impegno quutidiano con i team del Brisbane Airport Link per soddisfare le loro esigenze particolari<p><a href="documents/Airport Link.pdf" target="_blank" style="color:#ff7329"><b>Vai alla scheda</b></a></p></li></ul></div> <!-- /.blog_post 1 --><div class="col-sm-5 col-md-6 blog_post"><ul class="list-inline"><li class="col-md-4"><a href="#"><img class="img-responsive" src="images/Shapeimage_8.png" alt="gallery 2" /></a></li><li class="col-md-8"><div class="pull-left"><span class="blog_header">SPPA Jurong Cable Tunnels,Singapore</span><br/></div><div class="clearfix"> </div><p class="blog_text">MissionOS è stato impiegato per gestire la costruzione e la strumentazione di monitoraggio<p><a href="documents/JIPCT.pdf" target="_blank" style="color:#ff7329"><b>Vai alla scheda</b></a></p></li></ul></div><!-- /.blog_post 2 --><div class="templatemo_clear"></div><div class="col-sm-5 col-md-6 blog_post"><ul class="list-inline"><li class="col-md-4"><a href="#"><img class="img-responsive" src="images/shapeimage_7.png" alt="gallery 3" /></a></li><li class="col-md-8"><div class="pull-left"><span class="blog_header">Port of Brisbane expansion,Brisbane</span><br/></div><div class="clearfix"> </div><p class="blog_text">MissionOS è stato impiegato per tenere traccia delle metodologie di trattamento del suolo durante lo sviluppo della nuova piattaforma dell'importante porto australiano<p><a href="documents/Port of Brisbane Reclamation v3.pdf" target="_blank" style="color:#ff7329"><b>Vai alla scheda</b></a></p></li></ul></div><!-- /.blog_post 3 --><div class="col-sm-5 col-md-6 blog_post"><ul class="list-inline"><li class="col-md-4"><img class="img-responsive" src="images/esempio.jpg"alt="gallery 4" /></li><li class="col-md-8"><div class="pull-left"><span class="blog_header">SPPA EW-NS cable tunnels,Singapore</span><br/></div><div class="clearfix"> </div><p class="blog_text">MissionOS è stato impiegato per migliorare la comunicazione e la collaborazione tra 6 contratti che coinvolgono 14 TBM per lo scavo simultaneo dei tunnel.<p><a href="documents/SPPA.pdf" target="_blank" style="color:#ff7329"><b>Vai alla scheda</b></a></p></li></ul></div> <!-- /.blog_post 4 --></div></div></div><div class="text-center" id="mobile"><div id="templatemo-video" ><div class="container"><div class="container"><div class="text-center"><div class="templatemo-line-header container"><div class="text-center"><hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">MEDIA</span><hr class="team_hr team_hr_right hr_gray" /></div></div><div class="clearfix"></div></div> <!-- /.row --></div><div class="clearfix"></div><div class="container"><ul class="templatemo-project-gallery" ><li class="col-lg-3 col-md-3 col-sm-3gallery gallery-idro" ><a class="colorbox" href="#" data-group="gallery-strutture"><div class="templatemo-project-box"><iframe src='https://onedrive.live.com/embed?cid=F9C65CD78A777FA6&resid=F9C65CD78A777FA6%214850&authkey=AHnaUPz7v22jb2c&em=2&wdAr=1.3333333333333333' width='300px' height='200px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> presentation,powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe></div></a></li><li class="col-lg-3 col-md-3 col-sm-3gallery gallery-geo" ><a class="colorbox" href="#" data-group="gallery-geo"><div class="templatemo-project-box"><iframe src='https://onedrive.live.com/embed?cid=F9C65CD78A777FA6&resid=F9C65CD78A777FA6%214851&authkey=AMLN9zkv8XiOe5k&em=2&wdAr=1.3333333333333333' width='300px' height='200px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> presentation,powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe></div></a></li><li class="col-lg-3 col-md-3 col-sm-3gallery gallery-inspiration" ><a class="colorbox" href="#" data-group="gallery-inspiration"><div class="templatemo-project-box"><iframe src='https://onedrive.live.com/embed?cid=F9C65CD78A777FA6&resid=F9C65CD78A777FA6%214852&authkey=ADmojik8kfBOvpY&em=2&wdAr=1.3333333333333333' width='300px' height='200px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> presentation,powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe></div></a></li><li class="col-lg-3 col-md-3 col-sm-3gallery gallery-design" ><a class="colorbox" href="#" data-group="gallery-design"><div class="templatemo-project-box"><iframe src='https://onedrive.live.com/embed?cid=F9C65CD78A777FA6&resid=F9C65CD78A777FA6%214853&authkey=ALYQJ4Xsi-1RUI8&em=2&wdAr=1.3333333333333333' width='300px' height='200px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> presentation,powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe></div></a></li><li class="col-lg-3 col-md-3 col-sm-3gallery gallery-inspiration" ><a class="colorbox" href="#" data-group="gallery-inspiration"><div class="templatemo-project-box"><iframe src='https://onedrive.live.com/embed?cid=F9C65CD78A777FA6&resid=F9C65CD78A777FA6%214856&authkey=AHqQ9Maf0ftzq1c&em=2&wdAr=1.3333333333333333' width='300px' height='200px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> presentation,powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe></div></a></li><li class="col-lg-3 col-md-3 col-sm-3gallery gallery-inspiration" ><a class="colorbox" href="#" data-group="gallery-inspiration"><div class="templatemo-project-box"><iframe width="300" height="200" src="https://www.youtube.com/embed/67FP5tpzAUA" frameborder="0" allowfullscreen></iframe></div></li></ul><!-- /.gallery --></div></div><!-- /.container --></div> <!-- /.templatemo-portfolio --></div><div id="templatemo-contact"><div class="container"><div class="row"><div class="templatemo-line-header-2 head_contact"><div class="text-center"><hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">CONTATTI</span><hr class="team_hr team_hr_right hr_gray"/></div></div><div class="col-md-8"><div class="templatemo-contact-map" id="map-canvas"> </div><div class="clearfix"></div></div><div class="col-md-4 contact_right"><p><img src="images/location.png" alt="icon 1" /> Sede Legale:via G. Dominici 6,00165,Roma</p><p><img src="images/phone1.png"alt="icon 2" /> +39 333 8553750</p><p><img src="images/email.png" alt="icon 3" /><a href="mailto:info@missionos.it" target="_top">info@missionos.it</a></p></div></div><!-- /.row --></div><!-- /.container --></div><!-- /#templatemo-contact --><div class="templatemo-tweets"><div class="container"><div class="row" style="margin-top:20px;"><div class="col-md-2"></div><div class="col-md-1"><img src="images/quote.png" alt="icon" /></div><div class="col-md-7 tweet_txt" ><span>... le persone che sono abbastanza folli da pensare di poter cambiare il mondo sono coloro che lo cambiano davvero</span><br/><span class="twitter_user">Steve Jobs,Apple</span></div><div class="col-md-2"></div> </div><!-- /.row --></div><!-- /.container --></div><div class="templatemo-partners" ><div class="container"><div class="row"><div class="templatemo-line-header" ><div class="text-center"><hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">PARTNERS</span><hr class="team_hr team_hr_right hr_gray" /></div></div><div class="clearfix"></div><div class="text-center"><div style="margin-top:60px;"><ul class="list-inline"><li class="col-sm-2 col-md-2 templatemo-partner-item"><a href="http://www.akingegneriageotecnica.it/index.php/it/"><img src="images/partner1.png" class="img-responsive" alt="partner 1" /></a></li><li class="col-sm-2 col-md-2 templatemo-partner-item"><a href="http://www.ing-con.org"><img src="images/leC italia copy.jpg" class="img-responsive" alt="partner 2" /></a></li><li class="col-sm-2 col-md-2 templatemo-partner-item"><a href="http://gruppoing.to.it"><img src="images/GIT.jpg" class="img-responsive" alt="partner 3" /></a></li><li class="col-sm-2 col-md-2 templatemo-partner-item"><a href="http://www.dmi-italia.it"><img src="images/dmi.png" class="img-responsive" alt="partner 4" /></a></li><li class="col-sm-2 col-md-2 templatemo-partner-item"><a href="http://www.riskope.com"><img src="images/riskope1.png" class="img-responsive" alt="partner 5" /></a></li><li class="col-sm-2 col-md-2 templatemo-partner-item"><a href="http://www.maxwellgeosystems.com"><img src="images/maxwellgeosystems.png" class="img-responsive" alt="partner 6" /></a></li></ul></div></div></div></div></div><div class="templatemo-footer" ><div class="container"><div class="row"><div class="text-center"><div class="footer_container"><div class="height30"></div><a class="btn btn-lg btn-orange" href="#" role="button" id="btn-back-to-top">Ritorna alla homepage</a><div class="height30"></div></div><div class="footer_bottom_content"> <span>Copyright © 2016 <a href="#">Maxwell Italia,sede legale via G. Dominici,6 - Roma - P.IVA 13701671003,REA RM1466546</a></span></div></div></div></div></div><script src="js/jquery.min.js" type="text/javascript"></script><script src="js/bootstrap.min.js"type="text/javascript"></script><script src="js/stickUp.min.js"type="text/javascript"></script><script src="js/colorbox/jquery.colorbox-min.js"type="text/javascript"></script><script src="js/templatemo_script.js"type="text/javascript"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MissionOS</title>
+        <meta name="keywords" content="MissionOS, GIS, data base, web based, monitoraggio, geotecnica, idrogeologia, industriale, ambiente, monitoraggio ambientale, monitoraggio geotecnico, monitoraggio strutturale, piattaforma web, data management, gestione dati di monitoraggio, monitoring, piattaforma gestione dati, dati di monitoraggio, strumentazione di monitoraggio, instrumentation, spostamenti, settlements, dighe, frane, ponti, infrastrutture, strade, ferrovie, versanti, discariche, siti inquinati, falda, falde, dissesto idrogeologico, datalogger" />
+	<meta name="description" content="MissionOS.it è una piattaforma software web based in ambiente GIS che consente di:
+gestire dati di monitoraggio raccolti da diverse reti automatiche o manuali attraverso un'interfaccia potente e semplice per utenti anche non esperti, gestire notifiche di allarme al superamento di soglie prestabilite con invio automatico di SMS e/o email, creare, raccogliere e gestire report, raccogliere e gestire documentazione di base come disegni, note, relazioni, etc. in formato pdf" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/favicon.ico">
+	<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
+	<link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
+	<link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+	<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+	<link rel="apple-touch-icon" href="/favicon-57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+	<meta name="msapplication-TileImage" content="/favicon-144.png">
+	<meta name="msapplication-config" content="/browserconfig.xml">
+
+        <!-- Google Web Font Embed -->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css'>
+
+        <!-- Custom styles for this template -->
+        <link href="js/colorbox/colorbox.css"  rel='stylesheet' type='text/css'>
+        <link href="css/templatemo_style.min.css"  rel='stylesheet' type='text/css'>
+
+
+    </head>
+
+    <body>
+
+        <div class="templatemo-top-bar" id="templatemo-top">
+            <div class="container">
+                <div class="subheader">
+                    <div id="phone" class="pull-left">
+                            <img src="images/phone.png" alt="phone"/>
+                            +39 333 8553750
+                    </div>
+                    <div id="email" class="pull-right">
+                            <img src="images/email.png" alt="email"/>
+                            <a href="mailto:info@missionos.it" target="_top">info@missionos.it</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="templatemo-top-menu">
+            <div class="container">
+                <!-- Static navbar -->
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="container">
+                        <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="pse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                </button>
+                                <a href="#" class="navbar-brand"><img class="img-responsive" src="images/newcoom.png" alt="newcoom" title="newcoom" /></a>
+                        </div>
+                        <div class="navbar-collapse collapse" id="templatemo-nav-bar">
+                            <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
+                                <li class="active"><a href="#templatemo-top">Home</a></li>
+                                <li><a href="#templatemo-idms">MissionOS</a></li>
+                                <li><a href="#templatemo-about">IDMS</a></li>
+                                <li><a href="#templatemo-blog">Progetti</a></li>
+                                <li><a href="#templatemo-video">Media</a></li>
+                                <li><a href="#templatemo-contact">Contatti</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div><!--/.container-fluid -->
+                </div><!--/.navbar -->
+            </div> <!-- /container -->
+        </div>
+
+        <div>
+            <!-- Carousel -->
+            <div id="templatemo-carousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#templatemo-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#templatemo-carousel" data-slide-to="1"></li>
+                    <li data-target="#templatemo-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Piattaforme web per la gestione di dati di monitoraggio</h1>
+                                <p>&zwnj;</p>
+                            <p>&zwnj;</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="container">
+                                <div class="carousel-caption">
+                                    <div class="col-sm-6 col-md-6">
+                                    	<h1>SEMPLICI</h1>
+                                        <p>Interfaccia intuitiva, accesso rapido a dati, foto, documenti e report per massimizzare l'efficienza dei team di lavoro</p>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                    	<h1>SICURE E AFFIDABILI</h1>
+                                        <p>Accessibili con ID e password, piattaforme basate su tecnologia LAMP, la più sicura, stabile e in rapida evoluzione sul web</p>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                        <div class="item">
+                            <div class="container">
+                                <div class="carousel-caption">
+                                	<h1>Per gestire grandi quantità di dati</h1>
+                                  <p>&zwnj;</p>
+                                  <p>&zwnj;</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <a class="left carousel-control" href="#templatemo-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#templatemo-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div><!-- /#templatemo-carousel -->
+        </div>
+
+        <div class="templatemo-welcome" id="templatemo-welcome">
+            <div class="container">
+                <div class="templatemo-slogan text-center">
+                    <span class="txt_darkgrey">Benvenuti su </span><span class="txt_orange">MissionOS.it</span>
+                    <p class="txt_slogan"><i>Noi pensiamo ai dati e voi vi concentrate sui progetti</i></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="templatemo-service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="templatemo-service-item">
+                            <div>
+                                <img src="images/leaf.png" alt="icon" />
+                                <span class="templatemo-service-item-header">La nostra mission</span>
+                            </div>
+                            <p>Se gestite reti di monitoraggio di infrastrutture, edifici, reti ambientali, sapete quanto sia importante disporre in maniera rapida dei dati di cui avete bisogno sul vostro computer o sul vostro terminale mobile</p>
+
+                            <br class="clearfix"/>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="templatemo-service-item" >
+                            <div>
+                                <img src="images/mobile.png" alt="icon"/>
+                                <span class="templatemo-service-item-header">La piattaforma web</span>
+                            </div>
+							<p>MissionOS.it è una piattaforma web in ambiente GIS che consente di:
+raccogliere documenti di base come disegni, report, relazioni, etc. in formato pdf,
+raccogliere in un unico database e su base GIS (aerofotografie o mappe) informazioni e dati raccolti da reti differenti di strumentazione e
+gestire il monitoraggio...</p>
+
+                            <br class="clearfix"/>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="templatemo-service-item">
+                            <div>
+                                <img src="images/battery.png" alt="icon"/>
+                                <span class="templatemo-service-item-header">La massima efficienza</span>
+                            </div>
+                            <p>Compatibile con più di cento formati di file per gestire reti di monitoraggio strutturale, geotecnico, idrogeologico, ambientale di lungo termine. Per realizzare progetti, gestire e fare manutenzione, tenere sotto controllo la vita e l’evoluzione nel tempo di grandi infrastrutture, opere, linee di trasporto, siti di attività industriale, aree ad elevata sensibilità ambientale, sismica e idrogeologica</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="templatemo-idms" >
+            <div class="container">
+                <div class="row">
+                    <div class="templatemo-line-header-1" >
+                        <div class="text-center">
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">MissionOS</span>
+                            <hr class="team_hr team_hr_right hr_gray" />
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="blog_box">
+                    <div class="col-sm-5 col-md-6 blog_post">
+                        <ul class="list-inline">
+                            <li class="col-md-4">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/keybenefits_8.png" alt="gallery 1" />
+                                </a>
+                            </li>
+                            <li  class="col-md-8">
+                                <div class="pull-left">
+                                    <span class="blog_header">Formati pre-installati per i vostri report</span><br/>
+
+                                </div>
+
+                                <div class="clearfix"> </div>
+                                <p class="blog_text">
+                                     MissionOS è dotato di potenti strumenti di reportistica e diagnostica che consente al sistema di preparare e caricare rapporti a timing prestabilito o ad-hoc. Durante la fase d'installazione lavoriamo con il vostro team per definire esattamente quali dati sono richiesti, quando e in quale formato che a quel punto è predisposto in un formato presente nel sistema
+                                </p>
+                            </li>
+                        </ul>
+                    </div> <!-- /.blog_post 1 -->
+
+                    <div class="col-sm-5 col-md-6 blog_post">
+                        <ul class="list-inline">
+                            <li class="col-md-4"><a href="#">
+                                <img class="img-responsive" src="images/keybenefits_4.png" alt="gallery 2" /></a>
+                            </li>
+                            <li class="col-md-8">
+                                <div class="pull-left">
+                                    <span class="blog_header">Riduzione del personale / Riduzione dei costi</span><br/>
+                                </div>
+                                <div class="clearfix"> </div>
+                                <p class="blog_text">
+                                         Uno dei principali benefici di MissionOS è la riduzione della manodopera necessaria per il monitoraggio e il reporting. Una volta che i dati e i parametri degli strumenti sono stati caricati, il sistema svolge il lavoro più pesante. L'automatizzazione del caricamento dei dati, la loro elaborazione e compilazione di report può ridurre la manodopera di più del 90%
+                                </p>
+                            </li>
+                        </ul>
+                    </div><!-- /.blog_post 2 -->
+
+                    <div class="templatemo_clear"></div>
+
+                    <div class="col-sm-5 col-md-6 blog_post">
+                        <ul class="list-inline">
+                            <li class="col-md-4"><a href="#">
+                                <img class="img-responsive" src="images/keybenefits_5.png" alt="gallery 3" /></a>
+                            </li>
+                            <li class="col-md-8">
+                                <div class="pull-left">
+                                    <span class="blog_header">Mappa del sito e altre cartografie</span><br/>
+
+                                </div>
+
+                                <div class="clearfix"> </div>
+                                <p class="blog_text">
+                                         Durante il set-up iniziale MissionOS è configurato con la mappa del sito e altre cartografie e planimetrie tematiche con l'ubicazione del sito e della strumentazione. Gli operatori possono posizionare rapidamente nuovi elementi o identificare allarmi e attività di costruzione. Le mappe sono accessibili e aggiornabili direttamente da personale in sito autorizzato semplicemente in grado di accedere al web.
+                                </p>
+                            </li>
+                        </ul>
+                    </div><!-- /.blog_post 3 -->
+
+                    <div class="col-sm-5 col-md-6 blog_post">
+                        <ul class="list-inline">
+                            <li class="col-md-4">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/keybenefits_3.png"  alt="gallery 4" />
+                                </a>
+                            </li>
+                            <li class="col-md-8">
+                                <div class="pull-left">
+                                    <span class="blog_header">Impronta informatica ultraleggera</span><br/>
+
+                                </div>
+
+                                <div class="clearfix"> </div>
+                                <p class="blog_text">
+                                    MissionOS non necessita di installazione sulle vostre macchine e sulla vostra rete informatica essendo accessibile via web da qualunque terminale dotato di accesso a internet. Ciò evita di incorrere negli usuali problemi di malfunzionamento dei software sulle diverse macchine per problemi di differenti configurazioni o compresenza di programmi non compatibili. In questo modo potrete accedere a MissionOS in pochi secondi risparmiando moltissimo tempo
+                                </p>
+                            </li>
+                        </ul>
+                    </div> <!-- /.blog_post 4 -->
+
+                </div>
+                </div> <!-- /.row -->
+                <div class="row">
+
+                    <div class="clearfix"></div>
+                    <div class="blog_box">
+                    <div class="col-sm-5 col-md-6 blog_post">
+                        <ul class="list-inline">
+                            <li class="col-md-4">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/keybenefits_1.png" alt="gallery 1" />
+                                </a>
+                            </li>
+                            <li  class="col-md-8">
+                                <div class="pull-left">
+                                    <span class="blog_header">Auto caricamento dei dati</span><br/>
+
+                                </div>
+
+                                <div class="clearfix"> </div>
+                                <p class="blog_text">
+                                     MissionOS raggiunge la sua massima potenza quando riceve automaticamente i dati via datalogger dalla strumentazione in sito. Ciò consente non soltanto di risparmiare al massimo sulla manodopera, ma consente anche la massima velocità, accuratezza e affidabilità dei dati caricati.
+                                </p>
+                            </li>
+                        </ul>
+                    </div> <!-- /.blog_post 5 -->
+
+                    <div class="col-sm-5 col-md-6 blog_post">
+                        <ul class="list-inline">
+                            <li class="col-md-4"><a href="#">
+                                <img class="img-responsive" src="images/keybenefits_2.png" alt="gallery 2" /></a>
+                            </li>
+                            <li class="col-md-8">
+                                <div class="pull-left">
+                                    <span class="blog_header">Il portale di MissionOS</span><br/>
+                                </div>
+                                <div class="clearfix"> </div>
+                                <p class="blog_text">
+                                         Consente a singoli operatori o a piccoli gruppi di eseguire una vasta gamma compiti che richiederebbero normalmente molta manodopera. La possibilità di accedere a MissionOS tramite qualunque terminale con accesso a internet consente ai vostri team di essere sempre  in contatto con i dati ovunque e di essere sempre aggiornati su ciò che sta accadendo.
+                                </p>
+                            </li>
+                        </ul>
+                    </div><!-- /.blog_post 6 -->
+
+                    <div class="templatemo_clear"></div>
+
+                    <div class="col-sm-5 col-md-6 blog_post">
+                        <ul class="list-inline">
+                            <li class="col-md-4"><a href="#">
+                                <img class="img-responsive" src="images/keybenefits_6.png" alt="gallery 3" /></a>
+                            </li>
+                            <li class="col-md-8">
+                                <div class="pull-left">
+                                    <span class="blog_header">Stumenti pre-installati e allarmi</span><br/>
+
+                                </div>
+
+                                <div class="clearfix"> </div>
+                                <p class="blog_text">
+                                         MissionOS è già implementato con una lista completa di strumenti dai principali fornitori mondiali e, dove disponibili, di tutte le informazioni tecniche relative agli strumenti e ai parametri di allarme. Ciò consente ai vostri team di risparmiare molto tempo e assicurare che il sistema sia pienamente rispondente dal momento in cui è attivato.
+                                </p>
+                            </li>
+                        </ul>
+                    </div><!-- /.blog_post 7 -->
+
+                    <div class="col-sm-5 col-md-6 blog_post">
+                        <ul class="list-inline">
+                            <li class="col-md-4">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/keybenefits_7.png"  alt="gallery 4" />
+                                </a>
+                            </li>
+                            <li class="col-md-8">
+                                <div class="pull-left">
+                                    <span class="blog_header">24/24 7/7 con ogni condizione meteorologica</span><br/>
+
+                                </div>
+
+                                <div class="clearfix"> </div>
+                                <p class="blog_text">
+                                     Le persone possono essere stanche, annoiate, bloccate nel traffico mentre le macchine svolgono sempre il loro lavoro. MissionOS reagisce sempre agli eventi che accadono, registra in maniera affidabile e precisa e conserva i dati in totale sicurezza. In caso di incidente avrete sempre la più completa registrazione dell'evento.
+                                </p>
+                            </li>
+                        </ul>
+                    </div> <!-- /.blog_post 8 -->
+
+                </div>
+                </div> <!-- /.row -->
+        </div>
+        <div class="templatemo-team" id="templatemo-about">
+            <div class="container">
+                <div class="row">
+                    <div class="templatemo-line-header">
+                        <div class="text-center">
+                            <hr class="team_hr team_hr_left" /><span style="font-weight:bold;color:#fff">QUICK VIEW</span>
+                            <hr class="team_hr team_hr_right" />
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"> </div>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 ">
+                            <div class="text-center">
+                                <div class="member-thumb">
+                                    <img src="images/mission-os.png" class="img-responsive center-block" alt="missionOS" />
+                                </div>
+                            </div>
+                        </div>
+                   <div class="col-md-3">
+                        <div class="templatemo-service-item" >
+                            <div>
+
+                                <span class="templatemo-service-item-header"></span>
+                            </div>
+							<p style="font-weight:bold;color:#fff">MissionOS può aiutare i tuoi progetti — sfrutta la potenza dei dati in tempo reale — dalla vista d'insieme al più preciso dettaglio.</p>
+
+                            <br class="clearfix"/>
+                        </div>
+
+                    </div>
+                <div class="col-md-3">
+                        <div class="templatemo-service-item" >
+                            <div>
+
+                                <span class="templatemo-service-item-header"></span>
+                            </div>
+							<p style="font-weight:bold;color:#fff">Realizzato sull'esperienza in campo dai nostri ingegneri — esplora le caratteristiche che ti consentono di entrare in diretto contatto con i più minimi dettagli del tuo progetto.</p>
+
+                            <br class="clearfix"/>
+                        </div>
+
+                    </div>
+                <div class="col-md-3">
+                        <div class="templatemo-service-item" >
+                            <div>
+
+                                <span class="templatemo-service-item-header"></span>
+                            </div>
+							<p style="font-weight:bold;color:#fff">Dove impiegarlo — dai progetti di grandi opere civili all'ambito minerario, alla difesa dell'ambiente - capire come MissionOS può aiutarti nella risoluzione di problemi complessi</p>
+
+                            <br class="clearfix"/>
+                        </div>
+
+                    </div>
+                <div class="col-md-3">
+                        <div class="templatemo-service-item" >
+                            <div>
+
+                                <span class="templatemo-service-item-header"></span>
+                            </div>
+							<p style="font-weight:bold;color:#fff">Il sistema — un sistema di dati semplice ed elegante con un'impronta informatica ultraleggera può fornire importanti soluzioni progettuali</p>
+
+                            <br class="clearfix"/>
+                        </div>
+                    </div>
+            </div>
+        </div><!-- /.templatemo-team -->
+
+
+
+        <div id="templatemo-blog">
+            <div class="container">
+                <div class="container">
+                    <div class="text-center">
+                    <div class="templatemo-line-header-2 container">
+                        <div class="text-center">
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">PROGETTI</span>
+                            <hr class="team_hr team_hr_right hr_gray" />
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    </div> <!-- /.row -->
+                </div>
+
+                <div class="blog_box">
+                    <div class="col-sm-5 col-md-6 blog_post">
+                        <ul class="list-inline">
+                            <li class="col-md-4">
+                                <a href="#">
+                                    <img class="img-responsive" src="images/shapeimage_6.png" alt="gallery 1" />
+                                </a>
+                            </li>
+                            <li  class="col-md-8">
+                                <div class="pull-left">
+                                    <span class="blog_header">Airport Link, Brisbane</span><br/>
+
+                                </div>
+
+                                <div class="clearfix"> </div>
+                                <p class="blog_text">
+                                    Non è sufficiente un software per condurre un progetto al successo, ma l'impegno quutidiano con i team del Brisbane Airport Link per soddisfare le loro esigenze particolari
+                                    <p>
+                                    <a href="documents/Airport Link.pdf" target="_blank" style="color:#ff7329"><b>Vai alla scheda</b></a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div> <!-- /.blog_post 1 -->
+
+                    <div class="col-sm-5 col-md-6 blog_post">
+                        <ul class="list-inline">
+                            <li class="col-md-4"><a href="#">
+                                <img class="img-responsive" src="images/Shapeimage_8.png" alt="gallery 2" /></a>
+                            </li>
+                            <li class="col-md-8">
+                                <div class="pull-left">
+                                    <span class="blog_header">SPPA Jurong Cable Tunnels, Singapore</span><br/>
+
+                                </div>
+
+                                <div class="clearfix"> </div>
+                                <p class="blog_text">
+                                        MissionOS è stato impiegato per gestire la costruzione e la strumentazione di monitoraggio
+                                        <p>
+                                        <a href="documents/JIPCT.pdf" target="_blank" style="color:#ff7329"><b>Vai alla scheda</b></a>
+                                </p>
+
+                            </li>
+                        </ul>
+                    </div><!-- /.blog_post 2 -->
+
+                    <div class="templatemo_clear"></div>
+
+                    <div class="col-sm-5 col-md-6 blog_post">
+                        <ul class="list-inline">
+                            <li class="col-md-4"><a href="#">
+                                <img class="img-responsive" src="images/shapeimage_7.png" alt="gallery 3" /></a>
+                            </li>
+                            <li class="col-md-8">
+                                <div class="pull-left">
+                                    <span class="blog_header">Port of Brisbane expansion, Brisbane</span><br/>
+
+                                </div>
+
+                                <div class="clearfix"> </div>
+                                <p class="blog_text">
+                                        MissionOS è stato impiegato per tenere traccia delle metodologie di trattamento del suolo durante lo sviluppo della nuova piattaforma dell'importante porto australiano
+                                        <p>
+                                        <a href="documents/Port of Brisbane Reclamation v3.pdf" target="_blank" style="color:#ff7329"><b>Vai alla scheda</b></a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div><!-- /.blog_post 3 -->
+
+                    <div class="col-sm-5 col-md-6 blog_post">
+                        <ul class="list-inline">
+                            <li class="col-md-4">
+                                    <img class="img-responsive" src="images/esempio.jpg"  alt="gallery 4" />
+                            </li>
+                            <li class="col-md-8">
+                                <div class="pull-left">
+                                    <span class="blog_header">SPPA EW-NS cable tunnels, Singapore</span><br/>
+
+                                </div>
+
+                                <div class="clearfix"> </div>
+                                <p class="blog_text">
+                                    MissionOS è stato impiegato per migliorare la comunicazione e la collaborazione tra 6 contratti che coinvolgono 14 TBM per lo scavo simultaneo dei tunnel.
+                                    <p>
+                                    <a href="documents/SPPA.pdf" target="_blank" style="color:#ff7329"><b>Vai alla scheda</b></a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div> <!-- /.blog_post 4 -->
+
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center" id="mobile">
+            <div id="templatemo-video" >
+            <div class="container">
+                <div class="container">
+                    <div class="text-center">
+                    <div class="templatemo-line-header container">
+                        <div class="text-center">
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">MEDIA</span>
+                            <hr class="team_hr team_hr_right hr_gray" />
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    </div> <!-- /.row -->
+                </div>
+
+
+                <div class="clearfix"></div>
+                <div class="container">
+                    <ul class="templatemo-project-gallery" >
+                        <li class="col-lg-3 col-md-3 col-sm-3  gallery gallery-idro" >
+                            <a class="colorbox" href="#" data-group="gallery-strutture">
+                                <div class="templatemo-project-box">
+                                    <iframe src='https://onedrive.live.com/embed?cid=F9C65CD78A777FA6&resid=F9C65CD78A777FA6%214850&authkey=AHnaUPz7v22jb2c&em=2&wdAr=1.3333333333333333' width='300px' height='200px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-lg-3 col-md-3 col-sm-3  gallery gallery-geo" >
+                            <a class="colorbox" href="#" data-group="gallery-geo">
+                                <div class="templatemo-project-box">
+                                    <iframe src='https://onedrive.live.com/embed?cid=F9C65CD78A777FA6&resid=F9C65CD78A777FA6%214851&authkey=AMLN9zkv8XiOe5k&em=2&wdAr=1.3333333333333333' width='300px' height='200px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-lg-3 col-md-3 col-sm-3  gallery gallery-inspiration" >
+                            <a class="colorbox" href="#" data-group="gallery-inspiration">
+                                <div class="templatemo-project-box">
+                                    <iframe src='https://onedrive.live.com/embed?cid=F9C65CD78A777FA6&resid=F9C65CD78A777FA6%214852&authkey=ADmojik8kfBOvpY&em=2&wdAr=1.3333333333333333' width='300px' height='200px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-lg-3 col-md-3 col-sm-3  gallery gallery-design" >
+                            <a class="colorbox" href="#" data-group="gallery-design">
+                                <div class="templatemo-project-box">
+                                    <iframe src='https://onedrive.live.com/embed?cid=F9C65CD78A777FA6&resid=F9C65CD78A777FA6%214853&authkey=ALYQJ4Xsi-1RUI8&em=2&wdAr=1.3333333333333333' width='300px' height='200px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-lg-3 col-md-3 col-sm-3  gallery gallery-inspiration" >
+                            <a class="colorbox" href="#" data-group="gallery-inspiration">
+                                <div class="templatemo-project-box">
+                                    <iframe src='https://onedrive.live.com/embed?cid=F9C65CD78A777FA6&resid=F9C65CD78A777FA6%214856&authkey=AHqQ9Maf0ftzq1c&em=2&wdAr=1.3333333333333333' width='300px' height='200px' frameborder='0'>This is an embedded <a target='_blank' href='http://office.com'>Microsoft Office</a> presentation, powered by <a target='_blank' href='http://office.com/webapps'>Office Online</a>.</iframe>
+                                </div>
+                            </a>
+                        </li>
+			<li class="col-lg-3 col-md-3 col-sm-3  gallery gallery-inspiration" >
+                            <a class="colorbox" href="#" data-group="gallery-inspiration">
+                                <div class="templatemo-project-box">
+					<iframe width="300" height="200" src="https://www.youtube.com/embed/67FP5tpzAUA" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</li>
+
+                    </ul><!-- /.gallery -->
+                </div>
+
+            </div><!-- /.container -->
+        </div> <!-- /.templatemo-portfolio -->
+        </div>
+        <div id="templatemo-contact">
+            <div class="container">
+                <div class="row">
+                    <div class="templatemo-line-header-2 head_contact">
+                        <div class="text-center">
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">CONTATTI</span>
+                            <hr class="team_hr team_hr_right hr_gray"/>
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="templatemo-contact-map" id="map-canvas"> </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-4 contact_right">
+                        <p><img src="images/location.png" alt="icon 1" /> Sede Legale: via G. Dominici 6, 00165, Roma</p>
+                        <p><img src="images/phone1.png"  alt="icon 2" /> +39 333 8553750</p>
+                        <p><img src="images/email.png" alt="icon 3" /><a href="mailto:info@missionos.it" target="_top">info@missionos.it</a></p>
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /#templatemo-contact -->
+
+
+        <div class="templatemo-tweets">
+            <div class="container">
+                <div class="row" style="margin-top:20px;">
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-1">
+                                <img src="images/quote.png" alt="icon" />
+                        </div>
+                        <div class="col-md-7 tweet_txt" >
+                                <span>... le persone che sono abbastanza folli da pensare di poter cambiare il mondo sono coloro che lo cambiano davvero</span>
+                                <br/>
+                                <span class="twitter_user">Steve Jobs, Apple</span>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                 </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div>
+
+        <div class="templatemo-partners" >
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="templatemo-line-header" >
+                        <div class="text-center">
+                            <hr class="team_hr team_hr_left hr_gray"/><span class="txt_darkgrey">PARTNERS</span>
+                            <hr class="team_hr team_hr_right hr_gray" />
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+
+                    <div class="text-center">
+
+                        <div style="margin-top:60px;">
+                            <ul class="list-inline">
+                                <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                    <a href="http://www.akingegneriageotecnica.it/index.php/it/"><img src="images/partner1.png" class="img-responsive" alt="partner 1" /></a>
+                                </li>
+                                <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                    <a href="http://www.ing-con.org"><img src="images/leC italia copy.jpg" class="img-responsive" alt="partner 2" /></a>
+                                </li>
+                                <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                    <a href="http://gruppoing.to.it"><img src="images/GIT.jpg" class="img-responsive" alt="partner 3" /></a>
+                                </li>
+                                <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                    <a href="http://www.dmi-italia.it"><img src="images/dmi.png" class="img-responsive" alt="partner 4" /></a>
+                                </li>
+                                <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                    <a href="http://www.riskope.com"><img src="images/riskope1.png" class="img-responsive" alt="partner 5" /></a>
+                                </li>
+                                <li class="col-sm-2 col-md-2 templatemo-partner-item">
+                                    <a href="http://www.maxwellgeosystems.com"><img src="images/maxwellgeosystems.png" class="img-responsive" alt="partner 6" /></a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="templatemo-footer" >
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+
+                        <div class="footer_container">
+
+                            <div class="height30"></div>
+                            <a class="btn btn-lg btn-orange" href="#" role="button" id="btn-back-to-top">Ritorna alla homepage</a>
+                            <div class="height30"></div>
+                        </div>
+                        <div class="footer_bottom_content">
+                   			<span>Copyright © 2016 <a href="#">Maxwell Italia, sede legale via G. Dominici, 6 - Roma - P.IVA 13701671003, REA RM1466546</a></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js"  type="text/javascript"></script>
+        <script src="js/stickUp.min.js"  type="text/javascript"></script>
+        <script src="js/colorbox/jquery.colorbox-min.js"  type="text/javascript"></script>
+        <script src="js/templatemo_script.js"  type="text/javascript"></script>
+    </body>
+</html>
