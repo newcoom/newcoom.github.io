@@ -818,7 +818,7 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-#mobile,#map-canvas {
+#mobile,#map-canvas,.navbar-header {
         display: none;
     }  
 }
@@ -827,7 +827,7 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-#mobile,#map-canvas {
+#mobile,#map-canvas,.navbar-header {
         display: none;
     }  
 }
@@ -837,7 +837,7 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
-#mobile,#map-canvas {
+#mobile,#map-canvas,.navbar-header {
         display: none;
     }  
 }
@@ -847,7 +847,7 @@ ul.templatemo-project-gallery  li  a img:hover {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
-#mobile,#map-canvas {
+#mobile,#map-canvas,.navbar-header {
         display: none;
     }  
 }
